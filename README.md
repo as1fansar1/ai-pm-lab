@@ -33,3 +33,9 @@ Goal: Build a AI PM product in small, shippable slices.
 - Failure handling and guardrails
 - Evaluation loops for quality
 - Shipping incrementally with measurable outcomes
+
+## Run
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
